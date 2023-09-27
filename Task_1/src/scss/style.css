@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(34, 36, 52);
+  scroll-behavior: smooth;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+body > h1 {
+  font-size: 100px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: overline;
+}
+
+.preloader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  background-color: rgb(10, 7, 26);
+  flex-direction: column;
+  z-index: 999999;
+}
+.preloader img {
+  width: 150px;
+  height: 150px;
+}
+.preloader h1 {
+  color: bisque;
+  text-decoration: overline;
+}/*# sourceMappingURL=style.css.map */
